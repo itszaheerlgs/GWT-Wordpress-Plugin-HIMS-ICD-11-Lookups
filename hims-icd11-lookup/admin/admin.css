@@ -1,0 +1,13 @@
+/* HIMS ICD-11 Admin Styles */
+.hims-admin-wrap { font-family: 'Inter', -apple-system, sans-serif; }
+.hims-admin-title { display: flex; align-items: center; gap: 10px; color: #003580; margin-bottom: 20px; }
+.hims-admin-title .dashicons { font-size: 26px; }
+.hims-admin-grid { display: grid; grid-template-columns: 1fr 340px; gap: 24px; }
+.hims-admin-main { background: #fff; border: 1px solid #e2eaf5; border-radius: 10px; padding: 24px; }
+.hims-admin-sidebar { display: flex; flex-direction: column; gap: 16px; }
+.hims-card { background: #fff; border: 1px solid #e2eaf5; border-radius: 10px; padding: 18px 20px; }
+.hims-card h3 { margin: 0 0 10px; font-size: 13px; color: #003580; text-transform: uppercase; letter-spacing: 0.06em; }
+.hims-notice { padding: 10px 14px; border-radius: 6px; font-size: 13px; }
+.hims-notice.success { background: #f0fdf4; border: 1px solid #bbf7d0; color: #166534; }
+.hims-notice.error   { background: #fff5f5; border: 1px solid #fecaca; color: #991b1b; }
+.hims-admin-main .form-table th { width: 200px; }
